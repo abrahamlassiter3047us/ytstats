@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import ChannelDetails from "./ChannelDetails";
 import ChannelProfile from "./ChannelProfile";
-import Note from "./Note";
 import { Snippet } from "../types";
 import { useYoutubeContext } from "../../context/YoutubeContext";
 
