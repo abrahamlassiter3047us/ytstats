@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+pre {
+  font-family: "Roboto", sans-serif;
+}
+
+.loader {
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: radial-gradient(farthest-side, #e5383b 94%, #0000) top/8px 8px
+      no-repeat,
+    conic-gradient(#0000 30%, #e5383b);
+
+  animation: l13 1s infinite linear;
+}
+@keyframes l13 {
+  100% {
+    transform: rotate(1turn);
+  }
+}
